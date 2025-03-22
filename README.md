@@ -135,29 +135,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
 ## 🛠️ API Methods
 
-### 🔹 `SiteOptimizer.init()`
-
-- Initializes all optimizations.
-
-### 🔹 `SiteOptimizer.$(selector)` & `SiteOptimizer.$$(selector)`
-
-- Shortcuts for `document.querySelector` and `document.querySelectorAll`.
-
-### 🔹 `SiteOptimizer.on(element, event, callback)`
-
-- Adds an event listener.
-
-### 🔹 `SiteOptimizer.debounce(func, delay)`
-
-- Returns a debounced function.
-
-### 🔹 `SiteOptimizer.throttle(func, limit)`
-
-- Returns a throttled function.
-
-### 🔹 `SiteOptimizer.fetchData(url, options, retries, timeout)`
-
-- Fetches data with retry logic and timeout.
+| Method | Description |
+|--------|-------------|
+| `SiteOptimizer.init()` | Initializes all optimizations. |
+| `SiteOptimizer.$(selector)` | Shortcut for `document.querySelector`. |
+| `SiteOptimizer.$$(selector)` | Shortcut for `document.querySelectorAll`. |
+| `SiteOptimizer.on(element, event, callback)` | Adds an event listener. |
+| `SiteOptimizer.debounce(func, delay)` | Returns a debounced function. |
+| `SiteOptimizer.throttle(func, limit)` | Returns a throttled function. |
+| `SiteOptimizer.fetchData(url, options, retries, timeout)` | Fetches data with retry logic and timeout. |
 
 ---
 
